@@ -1,0 +1,27 @@
+.container{
+    margin: 150px auto;
+    width: 600px;
+}
+table{
+    border-collapse: collapse;
+}
+table th{
+    font-family: "Roboto Slab";
+    border-bottom: 3px solid #ff851b;
+}
+
+.info:hover{
+    border-bottom: 4px solid rgba(0,0,255,0.5);
+}
+th,td{
+    padding: 10px;
+}
+td button{
+    background: #ff851b;
+    border: none;
+    color: #fff;
+    border: none;
+    width:100%;
+    padding: 10px 20px;
+    transition: .5s ease;
+}

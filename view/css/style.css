@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formulario{
+    background: rgba(0,0,0,.6);
+    width: 100%;
+    margin: 48px auto;
+    max-width: 500px;
+    color: white;
+    border-radius: 5px;
+    padding: 40px;
+}
+.formulario h2{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'Roboto Slab', serif;
+}
+.formulario input,select,textarea{
+    outline:none;
+    background: rgba(0,0,0,.5);
+    display: block;
+    width: 100%;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    border-bottom:4px solid #ff851b;
+    transition: .2s ease;
+
+}
+.formulario input:focus,select:focus{
+    border-bottom: 4px solid #0075d9;
+}
+.pesos input{
+    width: 50%;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.formulario button{
+    background: #ff851b;
+    border: none;
+    color: #fff;
+    border: none;
+    width:100%;
+    padding: 10px 0;
+    transition: .5s ease;
+}
+.formulario button:hover{
+    background: rgba(0,117,217,.7);
+}
+.import{
+    color: #ff851b;
+}
