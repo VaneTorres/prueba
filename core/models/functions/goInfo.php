@@ -9,8 +9,9 @@ $db= conectar();
 $sql=$db->query("SELECT * FROM form");
 while($datos=$sql->fetch_array()){
     $dolar=$datos[4]*0.00031;
+    $formato=number_format($datos[4],2,'.',',');
     $html="<tr class='info'> <td>" . $datos[0] . "</td><td>" . $datos[1] . "</td>
-      <td>" . $datos[2] . "</td><td>".$datos[3] . "</td><td>" . $datos[4] . "</td><td>" . $dolar . "</td><td>
+      <td>" . $datos[2] . "</td><td>".$datos[3] . "</td><td>" . $formato . "</td><td>" . $dolar . "</td><td>
     <a href='?view=edit'><button id='editar'>Editar</button></a> </td></tr>";
     echo $html;
 }

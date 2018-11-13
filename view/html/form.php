@@ -10,7 +10,7 @@
 </head>
 <body>
 <?php require ("view/html/genery/menu.php");?>
-<form class="formulario" method="post">
+<form class="formulario" method="post" id="form">
     <h2>Formulario de creación de proceso</h2>
     <p> Los campos con <span class="import">*</span> son obligatorios </p>
     <div id="_AJAX_"></div>
